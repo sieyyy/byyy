@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<meta charset='UTF-8'/><meta content='width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=5' name='viewport'/><meta content='IE=edge' http-equiv='X-UA-Compatible'/>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Sono:wght@600&display=swap" rel="stylesheet">
+
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script>
+  <script src="https://unpkg.com/typeit@8.7.0/dist/index.umd.js"></script><link href="https://feeldreams.github.io/thisyou/style.css" rel="stylesheet" type="text/css" />
+  <script src="https://kit.fontawesome.com/4f3ce16e3e.js" crossorigin="anonymous"></script>
+  
+<head>
+<title>hi hehe </title>
+<link rel="icon" type="image/x-icon" href="https://www.palingit.com/favicon.ico">
+<meta name="description" content="HTML Replit Coding">
+
+
+</head>
+<body>
+	
+   <audio src="" id="linkmp3" class="sembunyi"></audio>
+   
+   <div id="bodyblur">
+     <!-- Wallpaper --><img src="bg.jpg" id="wallpaper"/>
+   </div>
+   
+   <div id='Content'>
+
+     <div id="ftAwal">
+       <img src="https://media.tenor.com/4P02Cdfd26MAAAAi/baby-yoda-so-cute.gif" id="ftoAwal"/>
+     </div>
+
+     <div id="loveIn">
+       <!-- Tombol LOVE --><label class='lovein'>❤️</label>
+     </div>
+     <p id="ket">click my heart uWu</p>
+
+    
+     
+     <div class="kumpulanstiker">
+ 
+         <img src="https://media.tenor.com/Tvbi0U91FEUAAAAj/mobile-girl-hi.gif" id="fotostiker"/>
+         <img src="https://media.tenor.com/FIsjXzK4M2EAAAAM/sorry-crying.gif" id="fotostiker1"/>
+         <img src="https://feeldreams.github.io/peachlove.gif" id="fotostiker2"/>
+         <img src="https://feeldreams.github.io/peachheart.gif" id="fotostiker3"/>
+         <img src="https://media.tenor.com/6I8VYQpzhygAAAAj/peachcat-cat.gif" id="fotostiker4"/>
+         <img src="https://media.tenor.com/veoIta9DMVwAAAAj/hand-wave-waving-hand.gif" id="fotostiker5"/>
+     </div>
+     
+     <div><blockquote id='bq' data-text='kisskisskiss'>
+       <p id="halo" class="halo"></p>
+       <p id="kalimat"> I want to say something ehe </p>
+       
+       <!-- Pesan -->
+       <p id="pesan0">first of all, sorry for being sorry palagi sa attitude ko hehe</p>
+       <p id="pesan1">I am really sorry for always making pa baby to you hehe </p>
+       <p id="pesan2">sorry for my palaging nagtatampo over little things na siey</p>
+       <p id="pesan3">but I want you to know that I love you so much❤️   </p>
+       <p id="pesan4">click the 3 hearts below hehe</p>
+       <div id="kolombaru">
+         <li id="lv1">🤍</li>
+         <li id="lv2">🤍</li>
+         <li id="lv3">🤍</li>
+       </div>
+       <p id="pesan5"> after your gawain po, pwede tayo kita? hehe😄 </p>
+       <p id="pesan6">yeheeyyy tinkyuuuuuuu mwuaahhhhh &gt;&lt;</p>
+       <p id="pesan7" class="gaya2">hihe chat mopo me if what time you availaableee hihihi😄 (nevermind if ur ans is no, just click the circle below)</p>
+
+       <!-- Tombol Lanjut -->
+       <p id="opsL">click click</p>
+     </blockquote></div>
+
+     <!-- Tombol Multifungsi -->
+     <div id="Tombol">
+       <a id="By">yes </a>
+       <a id="Bn">no no </a>
+     </div>
+
+     <!-- Pesan Ditolak -->
+     <div id="pesanditolak">
+       <img id="stikerditolak" src="https://media.tenor.com/hLgZBJ7RjzYAAAAj/cute-dog.gif"/>
+       <p id="kataditolak">eh okay po :( click mopo yung yes tas may circle below non. may fill up form for ur answer po. tinkyu</p>
+     </div>
+
+   </div>
+
+<!-- Jangan Edit Bagian Ini --><script>
+  const body = document.querySelector("body");const swalst = Swal.mixin({timer: 2300, allowOutsideClick: false, showConfirmButton: false, timerProgressBar: true, imageHeight: 90,}); audio = new Audio('' + linkmp3.src); ftganti=0;fungsi=0;fungsiAwal=0;deffotostiker=fotostiker.src;function berjatuhan() {const heart = document.createElement("div"); heart.className = "fas fa-snowflake"; heart.style.left = (Math.random() * 90)+"vw"; heart.style.animationDuration = (Math.random()*3)+2+"s"; body.appendChild(heart);} setInterval(function name(params) {var heartArr = document.querySelectorAll(".fa-snowflake"); if (heartArr.length > 100) {heartArr[0].remove()}},100);Content.style = "opacity:1;margin-top:16vh"; const swals = Swal.mixin({allowOutsideClick: false, cancelButtonColor: '#FF0040', imageHeight: 80,}); 
+  
+  async function inipesan(){
+         vketikhalo="hi babyyyy!!!❤️";
+         mulainama();
+  }
+
+  async function menuju(){
+    pesanwhatsapp = "";
+    await swals.fire('fill out this form for your answer ehe', 'success');
+    window.location = "https://forms.gle/8HX4DUsnaZJEn9fF8" + pesanwhatsapp;
+  }
+</script>
+<script src="script.js"></script>
+
+</body>
+</html>
